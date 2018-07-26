@@ -41,6 +41,6 @@ create_olympics_hash
   uppercase_cities= []
   summer_olympics.each do |cities| 
  uppercase_cities.push(cities.upcase)
-
+end
  puts uppercase_cities
 end 
