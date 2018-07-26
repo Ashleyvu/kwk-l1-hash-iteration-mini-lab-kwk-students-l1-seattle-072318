@@ -17,7 +17,7 @@
 #     puts "The #{year} summer olympics took place in #{city}"
 # end
 
-def iterate_through_keys
+def create_olympics_hash
    summer_olympics = {
     :Sydney => "2000",
     :Athens => "2004",
@@ -26,6 +26,7 @@ def iterate_through_keys
   }
   puts summer_olympics
 end 
+  create_olympics_hash
   
   def iterate_through_keys
    summer_olympics = {
