@@ -16,6 +16,7 @@
 #   summer_olympics.each do |city, year|
 #     puts "The #{year} summer olympics took place in #{city}"
 # end
+
 def iterate_through_keys
    summer_olympics = {
     :Sydney => "2000",
@@ -44,5 +45,5 @@ end
   summer_olympics.each do |cities| 
  uppercase_cities.push(cities.upcase)
 end
- puts uppercase_cities
 end 
+puts uppercase_cities
