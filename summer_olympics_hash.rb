@@ -28,5 +28,6 @@ def iterate_through_keys
  cities = summer_olympics.keys
  years = summer_olympics.values
   uppercase_cities= []
+  summer_olympics
  
 end
