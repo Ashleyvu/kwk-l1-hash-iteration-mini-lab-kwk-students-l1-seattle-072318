@@ -34,7 +34,8 @@ create_olympics_hash
     :Bejing => "2008",
     :London => "2012"
   }
-  summer_olympics[:Atlanta]
+  summer_olympics[:Atlanta] = 1996
+  
  cities = summer_olympics.keys
  years = summer_olympics.values
   uppercase_cities= []
