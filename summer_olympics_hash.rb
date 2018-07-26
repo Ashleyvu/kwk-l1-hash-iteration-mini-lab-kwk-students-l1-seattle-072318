@@ -48,6 +48,7 @@ def iterate_through_keys
     :Bejing => "2008",
     :London => "2012"
   }
+  
  cities = summer_olympics.keys
  years = summer_olympics.values
  summer_olympics.each do |years, cities|
