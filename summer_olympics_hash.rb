@@ -27,6 +27,14 @@ def iterate_through_keys
 end 
 create_olympics_hash
   
+  def iterate_through_keys
+   summer_olympics = {
+    :Sydney => "2000",
+    :Athens => "2004",
+    :Bejing => "2008",
+    :London => "2012"
+  }
+  summer_olympics[:Atlanta]
  cities = summer_olympics.keys
  years = summer_olympics.values
   uppercase_cities= []
