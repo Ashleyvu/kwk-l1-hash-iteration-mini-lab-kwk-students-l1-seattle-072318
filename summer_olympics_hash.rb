@@ -36,6 +36,7 @@ end
     :London => "2012"
   }
   summer_olympics[:Atlanta] = 1996
+  puts summer_olympics
 end 
   add_a_key_value_pair
   
