@@ -38,9 +38,9 @@ end
   summer_olympics[:Atlanta] = 1996
   puts summer_olympics
 end 
+add_a_key_value_pair
+
 def iterate_through_keys
-  add_a_key_value_pair
-  
  cities = summer_olympics.keys
  years = summer_olympics.values
  summer_olympics.each do |years, cities|
