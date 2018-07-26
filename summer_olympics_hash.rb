@@ -25,7 +25,6 @@ def iterate_through_keys
   }
   puts summer_olympics
 end 
-create_olympics_hash
   
   def iterate_through_keys
    summer_olympics = {
