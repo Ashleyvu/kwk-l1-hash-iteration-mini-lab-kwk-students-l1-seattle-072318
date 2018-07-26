@@ -29,5 +29,5 @@ def iterate_through_keys
  years = summer_olympics.values
   uppercase_cities= []
   summer_olympics.each do |cities| 
- 
+ uppercase_cities
 end
