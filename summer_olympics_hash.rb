@@ -28,7 +28,7 @@ def create_olympics_hash
 end 
   create_olympics_hash
   
-  def 
+  def add_a_key_value_pair
    summer_olympics = {
     :Sydney => "2000",
     :Athens => "2004",
@@ -36,6 +36,8 @@ end
     :London => "2012"
   }
   summer_olympics[:Atlanta] = 1996
+end 
+  add_a_key_value_pair
   
  cities = summer_olympics.keys
  years = summer_olympics.values
