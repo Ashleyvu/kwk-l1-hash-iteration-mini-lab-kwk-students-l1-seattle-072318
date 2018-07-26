@@ -28,7 +28,7 @@ def create_olympics_hash
 end 
   create_olympics_hash
   
-  def iterate_through_keys
+  def 
    summer_olympics = {
     :Sydney => "2000",
     :Athens => "2004",
