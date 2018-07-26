@@ -37,6 +37,8 @@ end
   
  cities = summer_olympics.keys
  years = summer_olympics.values
+ summer_olympics.each do |year, cities|
+   puts ""
   uppercase_cities= []
   summer_olympics.each do |cities| 
  uppercase_cities.push(cities.upcase)
