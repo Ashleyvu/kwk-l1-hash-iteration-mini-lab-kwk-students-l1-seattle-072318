@@ -42,7 +42,7 @@ add_a_key_value_pair
 
 def iterate_through_keys
    summer_olympics = {
-    :Atlanta => "1996"
+    :Atlanta => "1996",
     :Sydney => "2000",
     :Athens => "2004",
     :Bejing => "2008",
