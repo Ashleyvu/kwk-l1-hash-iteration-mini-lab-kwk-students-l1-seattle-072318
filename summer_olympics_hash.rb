@@ -23,6 +23,8 @@ def iterate_through_keys
     :Bejing => "2008",
     :London => "2012"
   }
+  puts summer_olympics
+  
  cities = summer_olympics.keys
  years = values 
   uppercase_cities= []
